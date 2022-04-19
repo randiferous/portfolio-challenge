@@ -33,11 +33,14 @@ header nav {
 header nav ul {
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 
 header nav ul li a {
     padding: 15px 25px;
     font-size: 1.2vw;
+    border-bottom: 1px solid #ADDFB3;
+
 }
 
 header nav ul li a:hover {
@@ -51,6 +54,19 @@ header nav ul li a:hover {
 /* all section style */
 section {
     padding: 30px;
+}
+
+/* hero style start */
+.hero {
+    background-image: url('../images/freeze-nike.jpg');
+    background-size: cover;
+    height: 800px;
+}
+
+.hero h3 {
+    color: #ADDFB3;
+    font-size: 25px;
+    padding: 5px 0;
 }
 
 /* contact style start */
