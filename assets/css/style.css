@@ -1,3 +1,65 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background-color: #ADDFB3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header style start */
+header {
+    padding: 15px 30px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ADDFB3;
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 15px 25px;
+    font-size: 1.2vw;
+}
+
+header nav ul li a:hover {
+    background: #ADDFB3;
+    color: black;
+    border-radius: 10px;
+}
+
+/* header style end */
+
+/* all section style */
+section {
+    padding: 30px;
+}
+
+/* contact style start */
+address {
+    font-style: normal;
+}
+
+address a {
+    color: black;
+}
+
+/* contact style end */
