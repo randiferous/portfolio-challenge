@@ -85,7 +85,6 @@ section {
 
 .about-me h2 {
     text-align: center;
-    font-size: 30px;
     padding: 5px;
     text-decoration: underline 2px;
 }
@@ -97,6 +96,15 @@ section {
 
 /* about style end */
 
+/* work style start */
+.my-work {
+    display: flex;
+}
+
+.my-work h2 {
+    text-decoration: underline 2px;
+}
+
 /* contact style start */
 address {
     font-style: normal;
@@ -107,3 +115,12 @@ address a {
 }
 
 /* contact style end */
+
+/* utility styles */
+.section-title {
+    font-size: 30px;
+}
+
+.main-container {
+    display: flex;
+}
