@@ -86,7 +86,6 @@ section {
 .about-me h2 {
     text-align: center;
     padding: 5px;
-    text-decoration: underline 2px;
 }
 
 .about-me p {
@@ -101,17 +100,38 @@ section {
     display: flex;
 }
 
-.my-work h2 {
-    text-decoration: underline 2px;
+/* contact style start */
+.contact-section {
+    height: 220px;
+    width: 500px;
+    padding-top: 0;
+    margin-left: 34px;
 }
 
-/* contact style start */
+.contact-section h2 {
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    gap: 0 25px;
+}
+
 address {
     font-style: normal;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 40px;
 }
 
 address a {
     color: black;
+}
+
+.contact-section a img {
+    max-height: 70%;
+    max-width: 80%;
+    padding-left: 10px;
 }
 
 /* contact style end */
@@ -119,6 +139,7 @@ address a {
 /* utility styles */
 .section-title {
     font-size: 30px;
+    text-decoration: underline 2px;
 }
 
 .main-container {
