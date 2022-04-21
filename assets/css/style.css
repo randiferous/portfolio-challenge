@@ -56,6 +56,12 @@ section {
     padding: 30px;
 }
 
+.section-title {
+    font-size: 30px;
+    text-decoration: underline 2px;
+    text-align: center
+}
+
 /* hero style start */
 .hero {
     background-image: url('../images/freeze-nike.jpg');
@@ -84,7 +90,6 @@ section {
 }
 
 .about-me h2 {
-    text-align: center;
     padding: 5px;
 }
 
@@ -97,19 +102,45 @@ section {
 
 /* work style start */
 .my-work {
+    width: 1200px;
+    height: 730px;
+}
+
+.my-work h2 {
+    margin: 15px 0;
+}
+
+.work-container {
     display: flex;
+    width: 1650px;
+}
+
+.run-buddy-page img {
+    border: 2px solid black;
+    margin-top: 25px;
+    max-width: 200%;
+}
+
+.placeholder-logos {
+    display: flex;
+    flex-direction: column;
+}
+.nhl-logo img {
+    max-width: 60%;
+    max-height: 50%;
+}
+
+.overwatch-logo img {
+    max-width: 60%;
+    max-height: 70%;
 }
 
 /* contact style start */
 .contact-section {
-    height: 220px;
+    height: 150px;
     width: 500px;
     padding-top: 0;
     margin-left: 34px;
-}
-
-.contact-section h2 {
-    text-align: center;
 }
 
 .contact-container {
@@ -137,11 +168,6 @@ address a {
 /* contact style end */
 
 /* utility styles */
-.section-title {
-    font-size: 30px;
-    text-decoration: underline 2px;
-}
-
 .main-container {
     display: flex;
 }
