@@ -107,7 +107,7 @@ section {
 }
 
 .my-work h2 {
-    margin: 15px 0;
+    margin-bottom: 15px;
 }
 
 .work-container {
@@ -117,22 +117,49 @@ section {
 
 .run-buddy-page img {
     border: 2px solid black;
-    margin-top: 25px;
+    margin-top: 5px;
+    width: 900px;
+    height: 700px;
     max-width: 200%;
+    max-height: 100%;
 }
 
 .placeholder-logos {
     display: flex;
     flex-direction: column;
+    height: 800px;
+    justify-content: space-between;
 }
+
+.nhl-logo {
+    height: 250px;
+} 
+
 .nhl-logo img {
     max-width: 60%;
-    max-height: 50%;
+    max-height: 95%;
+    margin: 5px 20px 20px 30px;
+}
+
+.overwatch-logo {
+    height: 350px;
+    width: 450px;
 }
 
 .overwatch-logo img {
     max-width: 60%;
-    max-height: 70%;
+    max-height: 75%;
+    margin: 10px 0 0 30px;
+}
+
+.chess {
+    height: 250px;
+    width: 500px;
+}
+
+.chess img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /* contact style start */
