@@ -10,6 +10,12 @@ While this task may have seemed daunting at first, I found plenty of enjoyment s
 - Chrome DevTools was especially useful for experimenting because it automatically updates your page. It is much better than constantly changing your file and refreshing your page.
 - The best lessons were learned when the errors were more difficult to correct.
 
-The biggest problem I faced with this project was making sure that my page adapted to various screen sizes. What I realized was that my width and height dimensions should be proportional to the page size rather than simply pixelated. This did not apply to all sections, but whenever I deemed it necessary, I converted a pixel value to a percentage. It was also important that I utilized the CSS flexbox tools for layout adaptability. When using flexbox, it was key to keep track of which elements were parent and child containers.
+The biggest problem I faced with this project was making sure that my page adapted to various screen sizes. Most of the trouble came from my height and width dimensions being in pixel instead of percentages. Wherever I deemed it necessary, I converted a pixel value to a percentage so that images look proportional as the screensize decreases. It was also important that I utilized the CSS flexbox tools for layout adaptability, and in doing so,  keeping track of parent and child elements. I will also note that I only needed to create one media query (max-width of 980px) because the changes within it translated well to smaller sizes.
 
-What I really liked about this challenge was the freedom to represent myself through my work. The process of envisioning something and then turning it into reality was quite fulfilling. Overall, I found this challenge quite helpful in establishing my basic skills.
+The following are screenshots of the webpage on multiple sizes, starting with the standard desktop site:
+
+Screenshots from iPad perspective:
+
+Screenshots from Samsung Galaxy S20 perspective:
+
+What I really liked about this challenge was the freedom to represent myself through my work. The process of envisioning something and then turning it into reality was quite fulfilling. Overall, I found this challenge quite helpful in establishing my skills.
