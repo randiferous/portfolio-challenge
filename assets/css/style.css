@@ -187,6 +187,10 @@ address a {
 
 /* media query for smaller screens */
 @media screen and (max-width: 980px) {
+    header {
+        padding: 15px 22px;
+
+    }
     header nav ul li a {
         font-size: 25px;
     }
@@ -232,6 +236,24 @@ address a {
     }
 
     .contact-section {
-        margin: 0 auto;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .contact-container {
+        flex-wrap: wrap;
+    }
+
+    address {
+        text-align: center;
+        padding-left: 0px;
+        margin: 0px auto;
+    }
+
+    .contact-section a img {
+        max-height: 50%;
+        max-width: 50%;
+        display: block;
+        margin: 0px auto;
     }
 }
