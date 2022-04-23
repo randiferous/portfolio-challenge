@@ -13,6 +13,7 @@ While this task may have seemed daunting at first, I found plenty of enjoyment s
 The biggest problem I faced with this project was making sure that my page adapted to various screen sizes. Most of the trouble came from my height and width dimensions being in pixel instead of percentages. Wherever I deemed it necessary, I converted a pixel value to a percentage so that images look proportional as the screensize decreases. It was also important that I utilized the CSS flexbox tools for layout adaptability, and in doing so,  keeping track of parent and child elements. I will also note that I only needed to create one media query (max-width of 980px) because the changes within it translated well to smaller sizes.
 
 The following are screenshots of the webpage on multiple sizes, starting with the standard desktop site:
+![Alt text](https://raw.githubusercontent.com/randiferous/portfolio-challenge/main/assets/images/desktop-top.PNG)
 
 ![Alt text](/assets/images/desktop-top.PNG)
 ![Alt text](/assets/images/desktop-bottom.PNG)
@@ -30,3 +31,4 @@ Screenshots from Samsung Galaxy S20 perspective:
 ![Alt text](/assets/images/samsung-bottom.PNG)
 
 What I really liked about this challenge was the freedom to represent myself through my work. The process of envisioning something and then turning it into reality was quite fulfilling. Overall, I found this challenge quite helpful in establishing my skills.
+
