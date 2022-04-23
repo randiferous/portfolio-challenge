@@ -14,8 +14,19 @@ The biggest problem I faced with this project was making sure that my page adapt
 
 The following are screenshots of the webpage on multiple sizes, starting with the standard desktop site:
 
+![Alt text](/assets/images/desktop-top.PNG)
+![Alt text](/assets/images/desktop-bottom.PNG)
+
 Screenshots from iPad perspective:
 
+![Alt text](/assets/images/ipad-top.PNG)
+![Alt text](/assets/images/ipad-mid.PNG)
+![Alt text](/assets/images/ipad-bottom.PNG)
+
 Screenshots from Samsung Galaxy S20 perspective:
+
+![Alt text](/assets/images/samsung-top.PNG)
+![Alt text](/assets/images/saumsung-mid.PNG)
+![Alt text](/assets/images/samsung-bottom.PNG)
 
 What I really liked about this challenge was the freedom to represent myself through my work. The process of envisioning something and then turning it into reality was quite fulfilling. Overall, I found this challenge quite helpful in establishing my skills.
