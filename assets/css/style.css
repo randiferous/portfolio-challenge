@@ -134,8 +134,8 @@ section {
     height: 55%;
 }
 
-.overwatch {
-    height: 50%;
+.weather-dashboard {
+    height: 55%;
 }
 
 .logo img {
@@ -204,11 +204,11 @@ address a {
         width: 100%;
     }
 
-    .run-buddy-image, .taskinator {
+    .run-buddy-image, .weather-dashboard {
         height: 50%;
     }
 
-    .overwatch, .chess {
+    .taskinator, .chess {
         height: 40%;
     }
 
