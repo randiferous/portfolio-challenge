@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,20 +12,20 @@
 
 <body class="bg-light">
     <!-- navigation bar -->
-    <header class="bg-black py-3 px-5">
+    <header class="bg-black py-3 px-5 d-flex justify-content-between flex-wrap">
         <h1>
             <a class="text-light fs-1 text-decoration-none" href="">Daniel Y. Lee</a>
         </h1>
         <nav class="border-bottom my-1">
-            <ul>
+            <ul class="d-flex justify-content-between">
                 <li>
-                    <a class="text-light fs-3 text-decoration-none" href="#about-me">About</a>
+                    <a class="text-light fs-3 text-decoration-none py-2 px-4" href="#about-me">About</a>
                 </li>
                 <li>
-                    <a class="text-light fs-3 text-decoration-none" href="#my-work">Work</a>
+                    <a class="text-light fs-3 text-decoration-none py-2 px-4" href="#my-work">Work</a>
                 </li>
                 <li>
-                    <a class="text-light fs-3 text-decoration-none" href="#contact-info">Contact</a>
+                    <a class="text-light fs-3 text-decoration-none py-2 px-4" href="#contact-info">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -34,16 +33,16 @@
     <!-- end navigation bar -->
 
     <!-- hero -->
-    <section class="hero">
-        <h3 class="text-light fs-4 fst-italic">Driven by passion; dedicated to process.</h3>
+    <section class="hero p-4">
+        <h3 class="text-light fs-4 fst-italic pt-5">Driven by passion; dedicated to process.</h3>
     </section>
     <!-- end hero -->
 
-    <div class="main-container">
+    <div class="d-flex flex-wrap flex-lg-nowrap">
         <!-- "about" section -->
-        <section id="about-me" class="about-me border border-dark border-4">
+        <section id="about-me" class="about-me border border-dark border-4 p-4 m-4">
             <img src="./assets/images/red-bull-pic.jpg" alt="Bboy Young1 Red Bull BC One New York" />
-            <h2 class="fs-2 text-center text-decoration-underline">
+            <h2 class="fs-2 text-center text-decoration-underline p-1">
                 About Me
             </h2>
             <p class="text-center fs-5">Korean-American born and raised in New York with a diversity of experiences. A practitioner of
@@ -53,11 +52,11 @@
         <!-- end "about" section -->
 
         <!-- "work" section -->
-        <section id="my-work" class="my-work">
-            <h2 class="fs-2 text-center text-decoration-underline">
+        <section id="my-work" class="my-work p-3">
+            <h2 class="fs-2 text-center text-decoration-underline mb-3">
                 Projects
             </h2>
-            <div class="work-container row">
+            <div class="work-container d-flex justify-content-around flex-wrap row">
                 <a href="https://randiferous.github.io/run-buddy/" target="_blank" class="logo col-5 run-buddy-image">
                     <img class="border border-dark border-2" src="./assets/images/run-buddy-snapshot-two.PNG" alt="Run Buddy homepage" />
                 </a>
@@ -67,7 +66,7 @@
                 <a href="https://randiferous.github.io/taskinator/" target="_blank" class="logo col-5 taskinator">
                     <img class="border border-dark border-2" src="./assets/images/taskinator-snapshot.PNG" alt="Taskinator homepage" />
                 </a>
-                <a class="logo col-5 scheduler">
+                <a href="https://randiferous.github.io/workday-scheduler-challenge/" target="_blank" class="logo col-5 scheduler">
                     <img class="border border-dark border-2" src="./assets/images/workday-scheduler.PNG" target="_blank" alt="workday scheduler" />
                 </a>
 
@@ -77,21 +76,21 @@
     </div>
 
     <!-- "contact" section -->
-    <section id="contact-info" class="contact-section">
-        <h2 class="fs-2 text-center text-decoration-underline">
+    <section id="contact-info" class="contact-section py-1 px-4">
+        <h2 class="fs-2 text-center text-decoration-underline mt-2">
             Contact Info
         </h2>
-        <div class="contact-container">
-            <address class="fs-6 text-center">
+        <div class="contact-container d-flex flex-wrap flex-lg-nowrap">
+            <address class="fs-6 text-center pt-3 px-5 mx-auto">
                 516-306-3995 <br />
                 <a class="text-dark text-decoration-none" href="mailto:daniel.younghwan.lee@gmail.com" target="_blank">daniel.younghwan.lee@gmail.com</a>
             </address>
-            <div id="icon-container">
+            <div id="icon-container" class="d-flex flex-column">
                 <a href="https://github.com/randiferous" target="_blank" id="github-icon">
-                    <img src="./assets/images/GitHub_Logo.png" alt="Link to GitHub account" />
+                    <img class="mx-auto" src="./assets/images/GitHub_Logo.png" alt="Link to GitHub account" />
                 </a>
                 <a href="https://www.linkedin.com/in/daniel-younghwan-lee/" target="_blank" id="linkedin-icon">
-                    <img src="./assets/images/LI-Logo.png" alt="Link to LinkedIn account" />
+                    <img class="mx-auto" src="./assets/images/LI-Logo.png" alt="Link to LinkedIn account" />
                 </a>
             </div>
         </div>

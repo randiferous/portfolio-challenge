@@ -1,18 +1,6 @@
 /* header style start */
-header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 header nav ul {
-    display: flex;
     list-style: none;
-    justify-content: space-between;
-}
-
-header nav ul li a {
-    padding: 15px 25px;
 }
 
 header nav ul li a:hover {
@@ -20,15 +8,6 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 /* header style end */
-
-/* general styles */
-section {
-    padding: 30px;
-}
-
-.main-container {
-    display: flex;
-}
 
 /* hero style start */
 .hero {
@@ -39,24 +18,15 @@ section {
     width: 100%;
 }
 
-.hero h3 {
-    padding: 60px 0 0 0;
-}
-
 /* about style start */
 .about-me {
     height: 65%;
     width: 26%;
-    margin: 30px;
 }
 
 .about-me img {
     max-height: 100%;
     max-width: 100%;
-}
-
-.about-me h2 {
-    padding: 5px;
 }
 /* about style end */
 
@@ -66,18 +36,11 @@ section {
     height: 730px;
 }
 
-.my-work h2 {
-    margin-bottom: 15px;
-}
-
 .row {
     --bs-gutter-x: 0;
 }
 
 .work-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     row-gap: 20px;
     width: 100%;
     height: 100%;
@@ -101,45 +64,26 @@ section {
 .contact-section {
     height: 150px;
     width: 500px;
-    padding-top: 0;
-    margin-left: 0px;
 }
 
 .contact-container {
-    display: flex;
     gap: 0 25px;
-}
-
-address {
-    padding-top: 10px;
-    padding-left: 40px;
 }
 
 .contact-section a img {
     max-height: 85%;
     max-width: 80%;
-    padding-left: 10px;
 }
 
 #icon-container {
-    display: flex;
-    flex-direction: column;
     row-gap: 5px;
 }
 /* contact style end */
 
 /* media query for smaller screens */
- @media screen and (max-width: 980px) {
-    header {
-        padding: 15px 22px;
-    }
-
+@media screen and (max-width: 980px) {
     .hero {
         height: 300px;
-    }
-
-    .main-container {
-        flex-wrap: wrap;
     }
 
     .my-work {
@@ -150,11 +94,13 @@ address {
         width: 100%;
     }
 
-    .run-buddy-image, .weather-dashboard {
+    .run-buddy-image,
+    .weather-dashboard {
         height: 50%;
     }
 
-    .taskinator, .scheduler {
+    .taskinator,
+    .scheduler {
         height: 40%;
     }
 
@@ -164,23 +110,12 @@ address {
     }
 
     .contact-section {
-        margin-left: 0px;
         width: 100%;
-    }
-
-    .contact-container {
-        flex-wrap: wrap;
-    }
-
-    address {
-        padding-left: 0px;
-        margin: 0px auto;
     }
 
     .contact-section a img {
         max-height: 80%;
         max-width: 50%;
         display: block;
-        margin: 0px auto;
     }
 }
