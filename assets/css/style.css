@@ -46,7 +46,7 @@ header nav ul li a:hover {
     height: 100%;
 }
 
-.run-buddy-image {
+.covid-tracker-image {
     height: 55%;
 }
 
@@ -94,7 +94,7 @@ header nav ul li a:hover {
         width: 100%;
     }
 
-    .run-buddy-image,
+    .covid-tracker-image,
     .weather-dashboard {
         height: 50%;
     }
